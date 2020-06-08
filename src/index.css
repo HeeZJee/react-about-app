@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +9,24 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+div {
+  background-color: bisque;
+}
+
+.heading,
+p {
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+
+
+ul>li:nth-child(odd) {
+  background-color: cornsilk;
+}
+
+ul>li>ul>li:nth-child(2n) {
+  background-color: antiquewhite;
 }
